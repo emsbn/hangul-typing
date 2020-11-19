@@ -1,0 +1,32 @@
+{
+  "name": "hangul-typing",
+  "version": "0.0.2",
+  "description": "hangul typing effect",
+  "main": "dist/hangulTyping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsbn/hangul-typing.git"
+  },
+  "keywords": [
+    "hangul",
+    "typing"
+  ],
+  "author": "emsbn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emsbn/hangul-typing/issues"
+  },
+  "homepage": "https://github.com/emsbn/hangul-typing#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "hangul-js": "^0.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
